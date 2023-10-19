@@ -12,7 +12,7 @@ type UserType = {
 
 type UserListPropsType = {
     title: string
-    users: Array<UserType>; // ПО МОЕМУ ЧЕГО-ТО НЕ ХВАТАЕТ...
+    users: Array<UserType>;
 };
 
 export const UserList = (props: UserListPropsType) => {
